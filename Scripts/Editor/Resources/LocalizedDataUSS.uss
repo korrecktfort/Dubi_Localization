@@ -1,0 +1,12 @@
+VisualElement {}
+
+.root{
+	flex-grow: 1;
+}
+
+.root__textField{
+	white-space: normal;
+	flex-grow: 1;
+	margin: 1px;
+	border-radius: 0px;
+}

@@ -1,0 +1,24 @@
+{
+    "name": "Dubi.Localization.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:08bf6735259ea464d807d32455219f61",
+        "GUID:07d4eefc321aad2419201c3d42ea77b8",
+        "GUID:5eaf911e7d1b1f7448b78a0ccf450501",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:6546d7765b4165b40850b3667f981c26",
+        "GUID:ee9c5e726d279f34fbea612acf04a9ea",
+        "GUID:cd5e454499512cf4282f314d5d3cef52"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2db412e2c7e35de459909cb845b650d8, type: 3}
+  m_Name: Localization Object
+  m_EditorClassIdentifier: 
+  table:
+    titles:
+    - Deutsch
+    - English
+    - Francais
+    - Espanol
+    data:
+      rows:
+      - array:
+        - text: Charakter
+        - text: character
+        - text: personnage
+        - text: personaje
+      - array:
+        - text: "Ausr\xFCstung"
+        - text: equipment
+        - text: "\xE9quipement"
+        - text: equipo
+      - array:
+        - text: "Ger\xE4te"
+        - text: Devices
+        - text: Dispositifs
+        - text: Dispositivos
+      - array:
+        - text: "T\xFCr"
+        - text: door
+        - text: porte
+        - text: puerta
+      - array:
+        - text: "T\xFCren"
+        - text: Doors
+        - text: Des portes
+        - text: Puertas
+      - array:
+        - text: Halten
+        - text: Hold
+        - text: Prise
+        - text: Sostener
+      - array:
+        - text: "\xD6ffnen"
+        - text: Open
+        - text: Ouvrir
+        - text: Abierto
+      - array:
+        - text: "Schlie\xDFen"
+        - text: Close
+        - text: Fermer
+        - text: Cerca
+      - array:
+        - text: Benutzen
+        - text: Use
+        - text: Utiliser
+        - text: Usar
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+      - array:
+        - text: 
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+        - text: '#VALUE!'
+  currentLanguageObject: {fileID: 11400000, guid: bc66acb0f54444a43ab3a64bc418799c, type: 2}
+  maxNameChar: 25
+  textAsset: {fileID: 4900000, guid: 33411517c3cd85849959f8d753ca8aff, type: 3}
+  entrySplit: 44
