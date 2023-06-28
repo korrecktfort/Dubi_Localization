@@ -1,4 +1,4 @@
 public interface IPostLanguageChanged
 {
-    public void OnLanguageChanged();
+    public void OnLanguageChanged(int index);
 }
