@@ -12,5 +12,10 @@ namespace Dubi.Localization
         public CurrentLanguageValue() : base(0, true)
         {
         }
+
+        public void InjectLanguageObject(CurrentLanguageObject currentLanguageObject)
+        {
+            base.ValueObject = currentLanguageObject;
+        }
     }
 }
