@@ -66,10 +66,15 @@ MonoBehaviour:
         - text: Utiliser
         - text: Usar
       - array:
-        - text: 
-        - text: '#VALUE!'
-        - text: '#VALUE!'
-        - text: '#VALUE!'
+        - text: "W\xFCrfel"
+        - text: Cube
+        - text: -.-
+        - text: ._.
+      - array:
+        - text: "\xC4ndere das Material"
+        - text: Change the Material
+        - text: -.....-
+        - text: .____.
       - array:
         - text: 
         - text: '#VALUE!'
@@ -155,12 +160,8 @@ MonoBehaviour:
         - text: '#VALUE!'
         - text: '#VALUE!'
         - text: '#VALUE!'
-      - array:
-        - text: 
-        - text: '#VALUE!'
-        - text: '#VALUE!'
-        - text: '#VALUE!'
-  currentLanguageObject: {fileID: 11400000, guid: bc66acb0f54444a43ab3a64bc418799c, type: 2}
+  currentLanguageObject: {fileID: 11400000, guid: bc66acb0f54444a43ab3a64bc418799c,
+    type: 2}
   maxNameChar: 25
   textAsset: {fileID: 4900000, guid: 33411517c3cd85849959f8d753ca8aff, type: 3}
   entrySplit: 44

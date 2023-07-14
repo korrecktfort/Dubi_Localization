@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c03ecec391081c428b81f27e37346a5, type: 3}
-  m_Name: 00 - Charakter
+  m_Name: "10 - \xC4ndere das Material"
   m_EditorClassIdentifier: 
   data:
-  - text: Charakter
-  - text: character
-  - text: personnage
-  - text: personaje
+  - text: "\xC4ndere das Material"
+  - text: Change the Material
+  - text: -.....-
+  - text: .____.

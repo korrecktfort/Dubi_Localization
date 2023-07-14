@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - text: "Ausr\xFCstung"
-  - text: Equipment
-  - text: "\xC9quipement"
-  - text: Equipo
+  - text: equipment
+  - text: "\xE9quipement"
+  - text: equipo

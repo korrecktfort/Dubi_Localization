@@ -12,7 +12,7 @@ public class LocalizationManager : Singleton<LocalizationManager>
 
     protected override void OnAwake()
     {
-        this.currentLanguage.InjectLanguageObject(Resources.Load<CurrentLanguageObject>("Current Language Object"));        
+        this.currentLanguage.InjectLanguageObject(Resources.Load<CurrentLanguageObject>("Current Language Object"));
     }
 
     private void OnEnable()
@@ -27,7 +27,7 @@ public class LocalizationManager : Singleton<LocalizationManager>
 
     void UpdateLocalization(int index)
     {
-        if (Quitting)
+        if(Quitting)
             return;
 
         foreach(SetLocalization setLocalization in setLocalizations)
@@ -38,10 +38,10 @@ public class LocalizationManager : Singleton<LocalizationManager>
 
     public void Register(SetLocalization setLocalization)
     {
-        if(Quitting)
+        if (Quitting)
             return;
 
-        if(this.setLocalizations.Contains(setLocalization))
+        if (this.setLocalizations.Contains(setLocalization))
             return;
 
         setLocalization.SetLocalization(this.currentLanguage.Value);
@@ -50,10 +50,10 @@ public class LocalizationManager : Singleton<LocalizationManager>
 
     public void Deregister(SetLocalization setLocalization)
     {
-        if(Quitting)
+        if (Quitting)
             return;
 
-        if(!this.setLocalizations.Contains(setLocalization))
+        if (!this.setLocalizations.Contains(setLocalization))
             return;
 
         this.setLocalizations.Remove(setLocalization);

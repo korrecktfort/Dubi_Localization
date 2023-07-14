@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data:
   - text: "T\xFCr"
-  - text: Door
-  - text: Porte
-  - text: Puerta
+  - text: door
+  - text: porte
+  - text: puerta
