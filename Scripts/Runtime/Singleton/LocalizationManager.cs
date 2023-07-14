@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class LocalizationManager : Singleton<LocalizationManager>
 {
-    CurrentLanguageValue currentLanguage = new CurrentLanguageValue();
+    [SerializeField] CurrentLanguageValue currentLanguage = new CurrentLanguageValue();
     List<SetLocalization> setLocalizations = new List<SetLocalization>();
     public int CurrentLanguage => this.currentLanguage.Value;
 

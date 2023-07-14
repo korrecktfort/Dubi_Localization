@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -9,7 +10,11 @@ namespace Dubi.Localization
     {
         public string Text
         {
-            get => this.text;
+            get
+            {
+                Debug.Log(this.text);
+                return this.text;
+            }
             set => this.text = value;
         }
 

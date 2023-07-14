@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a638aeda09672c041946cfac53ab0fce, type: 3}
   m_Name: Current Language Object
   m_EditorClassIdentifier: 
-  value: 1
+  value: 0
   constantValue: 0
   languages:
   - Deutsch

@@ -72,3 +72,9 @@
 .localized-text-element--paragraph {
     opacity: 0.6;
 }
+
+.localized-text-element--warning {
+    color: rgb(255, 72, 0);
+    -unity-font-style: bold-and-italic;
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+}

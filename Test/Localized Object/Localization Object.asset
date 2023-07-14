@@ -76,10 +76,10 @@ MonoBehaviour:
         - text: -.....-
         - text: .____.
       - array:
-        - text: 
-        - text: '#VALUE!'
-        - text: '#VALUE!'
-        - text: '#VALUE!'
+        - text: Irgendetwas blockiert den Mechanismus.
+        - text: Something Blocks The Mechanism.
+        - text: "Quelque Chose Bloque Le M\xE9canisme."
+        - text: Algo Bloquea El Mecanismo.
       - array:
         - text: 
         - text: '#VALUE!'
