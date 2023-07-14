@@ -10,11 +10,7 @@ namespace Dubi.Localization
     {
         public string Text
         {
-            get
-            {
-                Debug.Log(this.text);
-                return this.text;
-            }
+            get => this.text;
             set => this.text = value;
         }
 
