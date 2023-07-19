@@ -28,7 +28,6 @@ public class CurrentLanguageObjectDrawer : Editor
         }
 
         EditorGUI.BeginChangeCheck();
-
         EditorGUILayout.PropertyField(languagesProp, true);
         if (EditorGUI.EndChangeCheck())
         {

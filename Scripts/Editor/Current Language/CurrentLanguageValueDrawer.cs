@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Dubi.Localization;
-using Rubi.BaseValues;
 using UnityEditor;
 
 [CustomPropertyDrawer(typeof(CurrentLanguageValue))]
