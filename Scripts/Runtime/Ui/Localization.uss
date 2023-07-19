@@ -7,18 +7,16 @@
     padding-right: 0;
     padding-top: 0;
     padding-bottom: 0;
+    -unity-font: url('project://database/Assets/Project/Font/Bitter/Bitter-Medium.ttf?fileID=12800000&guid=839fc88906aba0d4f8d31c8de18fab2e&type=3#Bitter-Medium');
+    -unity-font-definition: url('project://database/Assets/Project/Font/Bitter/Bitter-Medium%20SDF.asset?fileID=11400000&guid=55da93fa9c4741343bc0773f46e9cdd5&type=2#Bitter-Medium SDF');
 }
 
 .localized-text-element {
     color: rgb(255, 255, 255);
-    -unity-font: resource('Bitter/Bitter-Medium');
-    -unity-font-definition: resource('Bitter/Bitter-Medium SDF');
 }
 
 .localized-text-element--black {
     color: rgb(45, 44, 44);
-    -unity-font: resource('Bitter/Bitter-Medium');
-    -unity-font-definition: resource('Bitter/Bitter-Medium SDF');
 }
 
 .localized-text-element--h1 {
