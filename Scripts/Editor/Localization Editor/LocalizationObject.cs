@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Rubi.BaseValues;
+using Dubi.BaseValues;
 using Dubi.TableExtension;
 
 #if UNITY_EDITOR

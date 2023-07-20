@@ -1,5 +1,5 @@
 using Dubi.Localization;
-using Dubi.Singleton;
+using Dubi.SingletonSpace;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
