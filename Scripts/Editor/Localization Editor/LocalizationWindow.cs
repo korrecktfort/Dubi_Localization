@@ -4,7 +4,6 @@ using UnityEditor;
 using UnityEngine;
 using Dubi.Localization;
 using UnityEngine.UIElements;
-using Dubi.TableExtension;
 using UnityEditor.UIElements;
 
 public class LocalizationWindow : EditorWindow
@@ -17,7 +16,6 @@ public class LocalizationWindow : EditorWindow
         window.SetupRoot(window.rootVisualElement);
     }
 
-    
 
     [UnityEditor.Callbacks.OnOpenAssetAttribute(1)]
     public static bool OnOpenAsset(int instanceID)

@@ -1,7 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using Dubi.BaseValues;
-using Dubi.TableExtension;
 
 #if UNITY_EDITOR
 using System.IO;
