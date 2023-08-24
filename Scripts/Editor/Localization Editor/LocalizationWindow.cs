@@ -46,25 +46,30 @@ public class LocalizationWindow : EditorWindow
         SerializedObject serializedObject = new SerializedObject(locaObject);
         SerializedProperty table = serializedObject.FindProperty("table");
 
-        /// Use Table
-        TableElement tableElement = new TableElement();
-        root.Add(tableElement);
-        tableElement.BindProperty(table);
+        PropertyField tableField = new PropertyField() { label = "Table" };
+        tableField.BindProperty(table);
 
-        Button createStringsButton = new Button() { text = "Create Localizations"};
-        createStringsButton.clickable = new Clickable(locaObject.UpdateTranslateStrings);
-        tableElement.ToolBar.Add(createStringsButton);
+        //root.Add(TablePropertyDrawer.CreatePropertyGUI(table));
 
-        PropertyField textAssetField = new PropertyField() { label = "Loca File" };
-        textAssetField.BindProperty(serializedObject.FindProperty("textAsset"));
-        tableElement.ToolBar.Add(textAssetField);
+        ///// Use Table
+        //TableElement tableElement = new TableElement();
+        //root.Add(tableElement);
+        //tableElement.BindProperty(table);
 
-        Button readInTableButton = new Button() { text = "Load Data From File" };
-        readInTableButton.clickable = new Clickable(locaObject.ReadInTable);
-        tableElement.ToolBar.Add(readInTableButton);
+        //Button createStringsButton = new Button() { text = "Create Localizations"};
+        //createStringsButton.clickable = new Clickable(locaObject.UpdateTranslateStrings);
+        //tableElement.ToolBar.Add(createStringsButton);
 
-        Button writeToTable = new Button() { text = "Save Data to File" };
-        writeToTable.clickable = new Clickable(locaObject.WriteTable);
-        tableElement.ToolBar.Add(writeToTable);
+        //PropertyField textAssetField = new PropertyField() { label = "Loca File" };
+        //textAssetField.BindProperty(serializedObject.FindProperty("textAsset"));
+        //tableElement.ToolBar.Add(textAssetField);
+
+        //Button readInTableButton = new Button() { text = "Load Data From File" };
+        //readInTableButton.clickable = new Clickable(locaObject.ReadInTable);
+        //tableElement.ToolBar.Add(readInTableButton);
+
+        //Button writeToTable = new Button() { text = "Save Data to File" };
+        //writeToTable.clickable = new Clickable(locaObject.WriteTable);
+        //tableElement.ToolBar.Add(writeToTable);
     }
 }

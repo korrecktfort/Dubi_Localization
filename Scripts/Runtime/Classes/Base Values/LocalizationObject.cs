@@ -11,7 +11,7 @@ namespace Dubi.Localization
     [CreateAssetMenu(menuName = "Dubi/Localization/Localization Object")]
     public class LocalizationObject : ScriptableObject, ISerializationCallbackReceiver
     {
-        [SerializeField] Table<LocalizedData> table = new Table<LocalizedData>();
+        [SerializeField] Table<LocalizedData> table = null;
         [SerializeField] CurrentLanguageObject currentLanguageObject = null;       
 
         private void Awake()
@@ -47,9 +47,9 @@ namespace Dubi.Localization
 
             List<LocalizedDataObject> currentTranslatedStrings = new List<LocalizedDataObject>();
 
-            for (int i = 0; i < this.table.Rows.Length; i++)
+            for (int i = 0; i < this.table.Data.Rows.Length; i++)
             {
-                LocalizedData[] array = this.table.Rows[i].array;
+                LocalizedData[] array = this.table.Data.Rows[i].Array;
                 string firstEntry = array[0].Text;
                 string assetName = (i < 10 ? "0" : "") + i.ToString() + " - " + firstEntry[..Mathf.Min(this.maxNameChar, firstEntry.Length)].Trim();
                 string currentPath = path + assetName + ".asset";
@@ -168,13 +168,13 @@ namespace Dubi.Localization
         {
             string main = "";
             int length = this.currentLanguageObject.languages.Count;
-            foreach (SingleDimensional<LocalizedData> row in this.table.Rows)
+            foreach (SingleDimensional<LocalizedData> row in this.table.Data.Rows)
             {
                 for (int i = 0; i < length; i++)
                 {
-                    if (i < row.array.Length)
+                    if (i < row.Array.Length)
                     {
-                        main += row.array[i].Text.Trim();
+                        main += row.Array[i].Text.Trim();
                     }
                     else
                     {
